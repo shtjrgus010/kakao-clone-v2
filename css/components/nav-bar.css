@@ -13,5 +13,19 @@
     padding: 20px 40px;
 }
 .nav__link{
+    position: relative;
     color: #2e363e;
+}
+.nav__notification{
+    background-color: tomato;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
 }
